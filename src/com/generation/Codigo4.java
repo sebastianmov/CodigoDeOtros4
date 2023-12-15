@@ -1,5 +1,15 @@
 package com.generation;
 
+/*
+ * El programa simula el juego piedra, papel o tijeras, entre dos jugadores.
+ * Se inicia el metodo main y se instancia la clase Scanner para poder ingresar datos en la consola.
+ * Se piden los datos de entrada del jugador 1 y se guarda en la variable j1.
+ * Se piden los datos de entrada del jugador 2 y se guarda en la variable j2.
+ * Se comparan los valores con equalsIgnoreCase para evaluar si son iguales o diferentes y saber cual es el ganador con respecto a las condiciones establecidas.
+ * Se imprime en consola el ganador.
+ * Se cierra el Scanner.
+ */
+
 import java.util.Scanner; // Se tiene que importar el paquete para poder hacer uso de Scanner
 
 public class Codigo4 {
